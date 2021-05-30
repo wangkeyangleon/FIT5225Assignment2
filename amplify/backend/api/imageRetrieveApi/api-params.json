@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "imageRetrieve",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "imageRetrieveApi",
+  "apiName": "imageRetrieveApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "imageRetrieve"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-5225assgroup22-dev-193548-authRole",
+    "unAuthRoleName": "amplify-5225assgroup22-dev-193548-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "imageRetrieve",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-5225assgroup22-dev-193548-authRole",
+      "UnauthRoleArn": "arn:aws:iam::642414453182:role/amplify-5225assgroup22-dev-193548-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::642414453182:role/amplify-5225assgroup22-dev-193548-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-5225assgroup22-dev-193548-deployment",
+      "UnauthRoleName": "amplify-5225assgroup22-dev-193548-unauthRole",
+      "StackName": "amplify-5225assgroup22-dev-193548",
+      "StackId": "arn:aws:cloudformation:us-east-1:642414453182:stack/amplify-5225assgroup22-dev-193548/17091ee0-bf98-11eb-8026-0a2f4587a347",
+      "AmplifyAppId": "d222gqs8uww5pc"
+    },
+    "categories": {
+      "auth": {
+        "5225assgroup220c8a9fe4": {}
+      },
+      "function": {
+        "imageRetrieve": {
+          "deploymentBucketName": "amplify-5225assgroup22-dev-193548-deployment",
+          "s3Key": "amplify-builds/imageRetrieve-66587178786d4e7a3057-build.zip"
+        },
+        "retrieveImage": {
+          "deploymentBucketName": "amplify-5225assgroup22-dev-193548-deployment",
+          "s3Key": "amplify-builds/retrieveImage-323932324e7a2f437976-build.zip"
+        }
+      }
+    }
+  }
+}
